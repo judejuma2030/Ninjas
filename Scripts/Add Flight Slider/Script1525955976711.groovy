@@ -33,7 +33,8 @@ WebUI.setText(findTestObject('Adding Flight/Title'), 'Kenya Airways')
 
 WebUI.setText(findTestObject('Adding Flight/Price'), '1000')
 
-WebUI.uploadFile(findTestObject('Adding Flight/Add Image'), 'C:\\Users\\Jude Juma\\Downloads\\kenyaAirways.jpg', FailureHandling.CONTINUE_ON_FAILURE)
+not_run: WebUI.uploadFile(findTestObject('Adding Flight/Add Image'), 'C:\\Users\\Jude Juma\\Downloads\\kenyaAirways.jpg', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.click(findTestObject('Adding Flight/Save and Return'))
 
