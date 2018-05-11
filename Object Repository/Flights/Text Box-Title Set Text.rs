@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Qatar to KQ 2</name>
+   <name>Text Box-Title Set Text</name>
    <tag></tag>
    <elementGuidId>3aa552f2-5d57-47db-bb45-75a43fb149a4</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

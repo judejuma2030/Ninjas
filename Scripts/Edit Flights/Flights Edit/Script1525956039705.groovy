@@ -21,31 +21,33 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('loginphptravel/phptrave login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Flights/Modules'))
+WebUI.click(findTestObject('Flights/Drop Down-Modules'))
 
-WebUI.mouseOver(findTestObject('Flights/Flight'))
+WebUI.mouseOver(findTestObject('Flights/Slide Over-Flight'))
 
-WebUI.click(findTestObject('Flights/Flight 2'))
+WebUI.click(findTestObject('Flights/Button-Flight Slider'))
 
-WebUI.click(findTestObject('Flights/Qatar Edit'))
+WebUI.click(findTestObject('Flights/Button-Edit'))
 
-WebUI.clearText(findTestObject('Flights/Qatar to KQ'))
+WebUI.clearText(findTestObject('Flights/Text Box-Title Clear'))
 
-WebUI.setText(findTestObject('Flights/Qatar to KQ 2'), 'ethiopian')
+WebUI.setText(findTestObject('Flights/Text Box-Title Set Text'), 'ethiopian')
 
-WebUI.clearText(findTestObject('Flights/Price Change 1'))
+WebUI.clearText(findTestObject('Flights/Text Box-Price Clear'))
 
-WebUI.setText(findTestObject('Flights/Price Change 2'), '125')
+WebUI.setText(findTestObject('Flights/Text Box-Price Set Text'), '125')
 
-not_run: WebUI.click(findTestObject('Flights/Remove Thumbnail'))
+not_run: WebUI.click(findTestObject('Flights/Button-Remove Thumbnail'))
 
 WebUI.delay(5)
 
 WebUI.click(findTestObject('Flights/Button-Save and Return'))
 
-not_run: WebUI.delay(5)
-
-WebUI.getText(findTestObject('Flights/Get Text'))
+WebUI.getText(findTestObject('Flights/Get Text-ethiopian'))
 
 WebUI.verifyNotEqual('Qatar', 'ethiopian')
+
+not_run: WebUI.callTestCase(findTestCase('Add Flight Slider'), [:], FailureHandling.STOP_ON_FAILURE)
+
+not_run: WebUI.callTestCase(findTestCase('Search Flight Added'), [:], FailureHandling.STOP_ON_FAILURE)
 

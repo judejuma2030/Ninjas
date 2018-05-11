@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Modules</name>
+   <name>Text Box-Price Clear</name>
    <tag></tag>
-   <elementGuidId>156c27b2-31a4-4737-99fd-1a974e343fc9</elementGuidId>
+   <elementGuidId>ed1a2d02-7140-4ca5-9200-1d95cad4f800</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//input[contains(@data-type,'float')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='navbar']/ul[1]/li[4]/a</value>
+      <value>//input[contains(@data-type,'float')]</value>
    </webElementProperties>
 </WebElementEntity>

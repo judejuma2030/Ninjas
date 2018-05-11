@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Flight 2</name>
+   <name>Get Text-ethiopian</name>
    <tag></tag>
-   <elementGuidId>466272f0-5483-49fc-8a5d-9e57c6ef6dcf</elementGuidId>
+   <elementGuidId>c4456c71-a884-484f-8c29-a96cf962ed68</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//td[contains(.,'ethiopian')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='Flights']/li/a</value>
+      <value>//td[contains(.,'ethiopian')]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Price Change 1</name>
+   <name>Text Box-Price Set Text</name>
    <tag></tag>
-   <elementGuidId>ed1a2d02-7140-4ca5-9200-1d95cad4f800</elementGuidId>
+   <elementGuidId>d547118b-65ef-4ab2-af61-e764eddd4bac</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//input[@data-type='float']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='content']/div/div[2]/div/div/div[1]/div[2]/div/div[2]/div/input</value>
+      <value>//input[@data-type='float']</value>
    </webElementProperties>
 </WebElementEntity>
