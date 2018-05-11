@@ -65,11 +65,15 @@ WebUiBuiltInKeywords.setText(findTestObject('AddTour/Deposit'), '500')
 
 WebUiBuiltInKeywords.setText(findTestObject('AddTour/Tax'), '200')
 
-not_run: WebUiBuiltInKeywords.click(findTestObject('AddTour/Related'))
+WebUI.delay(5)
+
+WebUiBuiltInKeywords.click(findTestObject('AddTour/Related'))
+
+WebUI.delay(3)
 
 not_run: WebUiBuiltInKeywords.setText(findTestObject('AddTour/Related'), 'Sheraton')
 
-not_run: WebUiBuiltInKeywords.click(findTestObject('AddTour/RelatedValue'))
+WebUiBuiltInKeywords.click(findTestObject('AddTour/RelatedValue'))
 
 WebUiBuiltInKeywords.click(findTestObject('AddTour/Submit'))
 

@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='select2-drop']//div[text()=&quot;Sheraton Trip&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='select2-drop']//span[text()=&quot;Sheraton&quot;]</value>
+      <value>.//*[@id='select2-drop']//div[text()=&quot;Sheraton Trip&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
