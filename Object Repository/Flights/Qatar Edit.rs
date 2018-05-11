@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='content']/div/div[2]/div/div/div[1]/div[2]/table/tbody/tr[1]/td[7]/span/a[2]/i</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>

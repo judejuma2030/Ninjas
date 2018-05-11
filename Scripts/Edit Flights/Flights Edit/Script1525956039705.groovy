@@ -31,13 +31,21 @@ WebUI.click(findTestObject('Flights/Qatar Edit'))
 
 WebUI.clearText(findTestObject('Flights/Qatar to KQ'))
 
-WebUI.setText(findTestObject('Flights/Qatar to KQ 2'), 'KQ')
+WebUI.setText(findTestObject('Flights/Qatar to KQ 2'), 'ethiopian')
 
 WebUI.clearText(findTestObject('Flights/Price Change 1'))
 
-WebUI.setText(findTestObject('Flights/Price Change 2'), '123')
+WebUI.setText(findTestObject('Flights/Price Change 2'), '125')
 
-WebUI.click(findTestObject('Flights/Remove Thumbnail'))
+not_run: WebUI.click(findTestObject('Flights/Remove Thumbnail'))
 
-WebUI.click(findTestObject('Flights/Save'))
+WebUI.delay(5)
+
+WebUI.click(findTestObject('Flights/Button-Save and Return'))
+
+not_run: WebUI.delay(5)
+
+WebUI.getText(findTestObject('Flights/Get Text'))
+
+WebUI.verifyNotEqual('Qatar', 'ethiopian')
 
