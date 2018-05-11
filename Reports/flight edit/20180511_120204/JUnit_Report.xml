@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="flight edit" time="28" tests="1" failures="0" errors="0">
+   <testsuite name="flight edit" tests="1" failures="0" errors="0" time="28" timestamp="2018-05-11 12:02:06" hostname="Gituto - DESKTOP-CN075BD" id="Test Suites/flight edit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Gituto\\git\\Ninjas\\Reports\\flight edit\\20180511_120204"/>
+         <property name="logFiles" value="C:\\Users\\Gituto\\git\\Ninjas\\Reports\\flight edit\\20180511_120204\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Gituto - DESKTOP-CN075BD"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.139"/>
+         <property name="hostAddress" value="192.168.1.126"/>
+         <property name="sessionId" value="6f01174f26697df89b880b83c452ad0e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Edit Flights/Flights Edit" classname="Test Cases/Edit Flights/Flights Edit" status="PASSED">
+         <system-out><![CDATA[2018-05-11 12:02:07 - [TEST_CASE][PASSED] - Test Cases/Edit Flights/Flights Edit: Test Cases/Edit Flights/Flights Edit
+
+2018-05-11 12:02:07 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/loginphptravel/phptrave login' successfully
+
+2018-05-11 12:02:07 - [TEST_CASE][PASSED] - Test Cases/loginphptravel/phptrave login: Test Cases/loginphptravel/phptrave login
+
+2018-05-11 12:02:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://www.phptravels.net/admin'
+
+2018-05-11 12:02:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://www.phptravels.net/admin'
+
+2018-05-11 12:02:17 - [TEST_STEP][PASSED] - setText: Text 'admin@phptravels.com' is set on object 'Object Repository/sign in/email'
+
+2018-05-11 12:02:17 - [MESSAGE][PASSED] - Text 'admin@phptravels.com' is set on object 'Object Repository/sign in/email'
+
+2018-05-11 12:02:17 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/sign in/password'
+
+2018-05-11 12:02:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/sign in/password'
+
+2018-05-11 12:02:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/sign in/remember me' is clicked on
+
+2018-05-11 12:02:18 - [MESSAGE][PASSED] - Object: 'Object Repository/sign in/remember me' is clicked on
+
+2018-05-11 12:02:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/sign in/log in btn' is clicked on
+
+2018-05-11 12:02:19 - [MESSAGE][PASSED] - Object: 'Object Repository/sign in/log in btn' is clicked on
+
+2018-05-11 12:02:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/loginphptravel/phptrave login' successfully
+
+2018-05-11 12:02:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Flights/Modules' is clicked on
+
+2018-05-11 12:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Flights/Modules' is clicked on
+
+2018-05-11 12:02:24 - [TEST_STEP][PASSED] - mouseOver: Object: 'Object Repository/Flights/Flight' is hovered
+
+2018-05-11 12:02:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Flights/Flight' is hovered
+
+2018-05-11 12:02:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Flights/Flight 2' is clicked on
+
+2018-05-11 12:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Flights/Flight 2' is clicked on
+
+2018-05-11 12:02:27 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Flights/Qatar Edit' is clicked on
+
+2018-05-11 12:02:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Flights/Qatar Edit' is clicked on
+
+2018-05-11 12:02:27 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Flights/Qatar to KQ' is cleared
+
+2018-05-11 12:02:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Flights/Qatar to KQ' is cleared
+
+2018-05-11 12:02:28 - [TEST_STEP][PASSED] - setText: Text 'ethiopian' is set on object 'Object Repository/Flights/Qatar to KQ 2'
+
+2018-05-11 12:02:28 - [MESSAGE][PASSED] - Text 'ethiopian' is set on object 'Object Repository/Flights/Qatar to KQ 2'
+
+2018-05-11 12:02:28 - [TEST_STEP][PASSED] - clearText: Text of object 'Object Repository/Flights/Price Change 1' is cleared
+
+2018-05-11 12:02:28 - [MESSAGE][PASSED] - Text of object 'Object Repository/Flights/Price Change 1' is cleared
+
+2018-05-11 12:02:28 - [TEST_STEP][PASSED] - setText: Text '125' is set on object 'Object Repository/Flights/Price Change 2'
+
+2018-05-11 12:02:28 - [MESSAGE][PASSED] - Text '125' is set on object 'Object Repository/Flights/Price Change 2'
+
+2018-05-11 12:02:28 - [TEST_STEP][NOT_RUN] - click: NOT_RUN: click
+
+2018-05-11 12:02:28 - [MESSAGE][NOT_RUN] - NOT_RUN: click
+
+2018-05-11 12:02:28 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-05-11 12:02:33 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-05-11 12:02:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Flights/Button-Save and Return' is clicked on
+
+2018-05-11 12:02:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Flights/Button-Save and Return' is clicked on
+
+2018-05-11 12:02:33 - [TEST_STEP][NOT_RUN] - delay: NOT_RUN: delay
+
+2018-05-11 12:02:33 - [MESSAGE][NOT_RUN] - NOT_RUN: delay
+
+2018-05-11 12:02:33 - [TEST_STEP][PASSED] - getText: Text of object 'Object Repository/Flights/Get Text' is: 'ethiopian'
+
+2018-05-11 12:02:34 - [MESSAGE][PASSED] - Text of object 'Object Repository/Flights/Get Text' is: 'ethiopian'
+
+2018-05-11 12:02:34 - [TEST_STEP][PASSED] - verifyNotEqual: Actual object 'Qatar' and expected object 'ethiopian' are not equal
+
+2018-05-11 12:02:34 - [MESSAGE][PASSED] - Actual object 'Qatar' and expected object 'ethiopian' are not equal]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-05-11 12:02:06 - [TEST_SUITE][PASSED] - flight edit: Test Cases/Edit Flights/Flights Edit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
