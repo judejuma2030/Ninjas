@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ClickLocation</name>
+   <name>Location</name>
    <tag></tag>
-   <elementGuidId>6cb86133-0c31-4863-971e-b11b3e388c3e</elementGuidId>
+   <elementGuidId>aacf6fa0-3c72-49a1-a5d8-8e2541ba3bc6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='s2id_locationlist1']//span[text()='Enter Location']</value>
+      <value>.//*[@id='s2id_locationlist1']//span[text()=&quot;Enter Location&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

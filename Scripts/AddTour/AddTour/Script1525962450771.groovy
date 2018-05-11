@@ -21,6 +21,8 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('loginphptravel/phptrave login'), [:], FailureHandling.STOP_ON_FAILURE)
 
+WebUI.maximizeWindow()
+
 WebUI.click(findTestObject('AddTour/Modules'))
 
 WebUI.mouseOver(findTestObject('AddTour/MouseOverTours'))
@@ -35,13 +37,13 @@ WebUiBuiltInKeywords.click(findTestObject('AddTour/StatusValue'))
 
 WebUI.setText(findTestObject('AddTour/TourName'), 'Safari Tours')
 
-not_run: WebUiBuiltInKeywords.setText(findTestObject('AddTour/TourDescription'), 'A chance to be in the wild')
-
 WebUiBuiltInKeywords.setText(findTestObject('AddTour/AdultsQuantity'), '5')
 
 WebUiBuiltInKeywords.setText(findTestObject('AddTour/AdultsPrice'), '2000')
 
 WebUiBuiltInKeywords.click(findTestObject('AddTour/Stars'))
+
+WebUiBuiltInKeywords.delay(2)
 
 WebUiBuiltInKeywords.click(findTestObject('AddTour/StarsValue'))
 
@@ -53,25 +55,21 @@ WebUiBuiltInKeywords.click(findTestObject('AddTour/TourType'))
 
 WebUiBuiltInKeywords.click(findTestObject('AddTour/TourTypeValue'))
 
-WebUiBuiltInKeywords.click(findTestObject('AddTour/ClickLocation'))
+WebUiBuiltInKeywords.click(findTestObject('AddTour/Location'))
 
-WebUiBuiltInKeywords.setText(findTestObject('AddTour/TypeLocation'), 'ngo')
+WebUiBuiltInKeywords.setText(findTestObject('AddTour/EnterLocation'), 'Nairobi')
 
-WebUiBuiltInKeywords.selectOptionByLabel(findTestObject('AddTour/TypeLocation'), 'che, Mozambique', false)
+WebUiBuiltInKeywords.click(findTestObject('AddTour/LocationValue'))
 
 WebUiBuiltInKeywords.setText(findTestObject('AddTour/Deposit'), '500')
 
 WebUiBuiltInKeywords.setText(findTestObject('AddTour/Tax'), '200')
 
-WebUiBuiltInKeywords.selectOptionByValue(findTestObject('AddTour/Related'), 'Spectaculars Of The Nile 3 Night', false)
+not_run: WebUiBuiltInKeywords.click(findTestObject('AddTour/Related'))
 
-WebUiBuiltInKeywords.click(findTestObject(null))
+not_run: WebUiBuiltInKeywords.setText(findTestObject('AddTour/Related'), 'Sheraton')
 
-WebUiBuiltInKeywords.setText(findTestObject('AddTour/AddressOnMap'), 'w')
-
-WebUiBuiltInKeywords.selectOptionByIndex(findTestObject('AddTour/AddressOnMap'), 1)
+not_run: WebUiBuiltInKeywords.click(findTestObject('AddTour/RelatedValue'))
 
 WebUiBuiltInKeywords.click(findTestObject('AddTour/Submit'))
-
-WebUI.acceptAlert()
 

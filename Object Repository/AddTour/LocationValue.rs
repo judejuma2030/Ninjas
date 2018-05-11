@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TourTypeValue</name>
+   <name>LocationValue</name>
    <tag></tag>
-   <elementGuidId>3981c95a-a9fb-41da-b4c3-5ce647361282</elementGuidId>
+   <elementGuidId>27b82638-b421-4230-9d1d-05a0f4be7b52</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>.//*[@id='select2-drop']//span[text()=&quot;Nairobi&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='select2-drop']/ul/li/div[text()='Couples']</value>
+      <value>.//*[@id='select2-drop']//span[text()=&quot;Nairobi&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

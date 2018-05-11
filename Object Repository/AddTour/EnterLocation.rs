@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>TypeLocation</name>
+   <name>EnterLocation</name>
    <tag></tag>
-   <elementGuidId>b704b47c-c81f-42bd-9b35-534d97008a7e</elementGuidId>
+   <elementGuidId>2cd6cbcf-faff-41df-8664-104b5568dced</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
