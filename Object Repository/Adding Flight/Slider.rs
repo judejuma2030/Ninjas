@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Remove Thumbnail</name>
+   <name>Slider</name>
    <tag></tag>
-   <elementGuidId>436d8478-2db8-4e85-9c28-01caff52ac30</elementGuidId>
+   <elementGuidId>4bd47572-528d-4089-9f10-928821116d09</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='content']/div/div[2]/div/div/div[1]/div[2]/div/div[3]/div/div/div/a</value>
+      <value>//a[contains(.,'Flights Slider')]</value>
    </webElementProperties>
 </WebElementEntity>

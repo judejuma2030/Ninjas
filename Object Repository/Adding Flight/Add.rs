@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Flight 2</name>
+   <name>Add</name>
    <tag></tag>
-   <elementGuidId>466272f0-5483-49fc-8a5d-9e57c6ef6dcf</elementGuidId>
+   <elementGuidId>1e4bfa73-65d9-4980-aa47-c764d3ad7acf</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='Flights']/li/a</value>
+      <value>//a[@data-task='create']</value>
    </webElementProperties>
 </WebElementEntity>

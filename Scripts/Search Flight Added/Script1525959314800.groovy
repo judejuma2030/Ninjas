@@ -19,35 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.callTestCase(findTestCase('loginphptravel/phptrave login'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Add Flight Slider'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Flights/Drop Down-Modules'))
+WebUI.click(findTestObject('Search Flight Added/Search'))
 
-WebUI.mouseOver(findTestObject('Flights/Slide Over-Flight'))
+WebUI.setText(findTestObject('Search Flight Added/Type Name'), 'Kenya Airways')
 
-WebUI.click(findTestObject('Flights/Button-Flight Slider'))
+WebUI.click(findTestObject('Search Flight Added/Go'))
 
-WebUI.click(findTestObject('Flights/Button-Edit'))
+Kenya_airWays = WebUI.getText(findTestObject('Search Flight Added/VerifyAddedFlight'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Flights/Text Box-Title Clear'))
-
-WebUI.setText(findTestObject('Flights/Text Box-Title Set Text'), 'ethiopian')
-
-WebUI.clearText(findTestObject('Flights/Text Box-Price Clear'))
-
-WebUI.setText(findTestObject('Flights/Text Box-Price Set Text'), '125')
-
-not_run: WebUI.click(findTestObject('Flights/Button-Remove Thumbnail'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Flights/Button-Save and Return'))
-
-WebUI.getText(findTestObject('Flights/Get Text-ethiopian'))
-
-WebUI.verifyNotEqual('Qatar', 'ethiopian')
-
-not_run: WebUI.callTestCase(findTestCase('Add Flight Slider'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.callTestCase(findTestCase('Search Flight Added'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.verifyEqual(Kenya_airWays, 'Kenya Airways')
 

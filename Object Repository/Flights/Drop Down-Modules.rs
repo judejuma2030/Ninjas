@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Price Change 1</name>
+   <name>Drop Down-Modules</name>
    <tag></tag>
-   <elementGuidId>ed1a2d02-7140-4ca5-9200-1d95cad4f800</elementGuidId>
+   <elementGuidId>156c27b2-31a4-4737-99fd-1a974e343fc9</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +16,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='content']/div/div[2]/div/div/div[1]/div[2]/div/div[2]/div/input</value>
+      <value>.//*[@id='navbar']/ul[1]/li[4]/a</value>
    </webElementProperties>
 </WebElementEntity>

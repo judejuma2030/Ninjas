@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Flight</name>
+   <name>Click Module</name>
    <tag></tag>
-   <elementGuidId>cfa345d9-474a-441a-a688-e91f065aa87b</elementGuidId>
+   <elementGuidId>f21e88a8-0037-4138-9144-dc8cf6771752</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//span[contains(.,'Flights')]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//span[contains(.,'Flights')]</value>
+      <value>//a[contains(.,' Modules ')]</value>
    </webElementProperties>
 </WebElementEntity>

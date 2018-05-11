@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Qatar to KQ 2</name>
+   <name>Title</name>
    <tag></tag>
-   <elementGuidId>3aa552f2-5d57-47db-bb45-75a43fb149a4</elementGuidId>
+   <elementGuidId>382074d8-2540-4240-8254-a6f319a159a6</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='content']/div/div[2]/div/div/div[1]/div[2]/div/div[1]/div/input</value>
+      <value>//input[@data-required='1']</value>
    </webElementProperties>
 </WebElementEntity>

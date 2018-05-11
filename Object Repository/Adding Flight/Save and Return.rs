@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Qatar Edit</name>
+   <name>Save and Return</name>
    <tag></tag>
-   <elementGuidId>49b2bfc8-4a27-4c3c-94c8-4732d48cc023</elementGuidId>
+   <elementGuidId>d4da1c92-7089-49a1-8839-8d2199490084</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='content']/div/div[2]/div/div/div[1]/div[2]/table/tbody/tr[1]/td[7]/span/a[2]/i</value>
+      <value>//a[contains(.,'Save &amp; Return')]</value>
    </webElementProperties>
 </WebElementEntity>

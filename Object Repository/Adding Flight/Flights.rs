@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Qatar to KQ</name>
+   <name>Flights</name>
    <tag></tag>
-   <elementGuidId>e1d2d0e0-64e8-47ac-8ef0-b97a3abd64e7</elementGuidId>
+   <elementGuidId>628122da-2a13-48e9-8ef7-22a0ff666f5d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='content']/div/div[2]/div/div/div[1]/div[2]/div/div[1]/div/input</value>
+      <value>//span[contains(.,'Flights')]</value>
    </webElementProperties>
 </WebElementEntity>

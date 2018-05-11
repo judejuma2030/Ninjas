@@ -21,33 +21,20 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.callTestCase(findTestCase('loginphptravel/phptrave login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Flights/Drop Down-Modules'))
+WebUI.click(findTestObject('Adding Flight/Click Module'))
 
-WebUI.mouseOver(findTestObject('Flights/Slide Over-Flight'))
+WebUI.mouseOver(findTestObject('Adding Flight/Flights'))
 
-WebUI.click(findTestObject('Flights/Button-Flight Slider'))
+WebUI.click(findTestObject('Adding Flight/Slider'))
 
-WebUI.click(findTestObject('Flights/Button-Edit'))
+WebUI.click(findTestObject('Adding Flight/Add'))
 
-WebUI.clearText(findTestObject('Flights/Text Box-Title Clear'))
+WebUI.setText(findTestObject('Adding Flight/Title'), 'Kenya Airways')
 
-WebUI.setText(findTestObject('Flights/Text Box-Title Set Text'), 'ethiopian')
+WebUI.setText(findTestObject('Adding Flight/Price'), '1000')
 
-WebUI.clearText(findTestObject('Flights/Text Box-Price Clear'))
+not_run: WebUI.uploadFile(findTestObject('Adding Flight/Add Image'), 'C:\\Users\\Jude Juma\\Downloads\\kenyaAirways.jpg', 
+    FailureHandling.CONTINUE_ON_FAILURE)
 
-WebUI.setText(findTestObject('Flights/Text Box-Price Set Text'), '125')
-
-not_run: WebUI.click(findTestObject('Flights/Button-Remove Thumbnail'))
-
-WebUI.delay(5)
-
-WebUI.click(findTestObject('Flights/Button-Save and Return'))
-
-WebUI.getText(findTestObject('Flights/Get Text-ethiopian'))
-
-WebUI.verifyNotEqual('Qatar', 'ethiopian')
-
-not_run: WebUI.callTestCase(findTestCase('Add Flight Slider'), [:], FailureHandling.STOP_ON_FAILURE)
-
-not_run: WebUI.callTestCase(findTestCase('Search Flight Added'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Adding Flight/Save and Return'))
 

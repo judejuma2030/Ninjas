@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Modules</name>
+   <name>Search</name>
    <tag></tag>
-   <elementGuidId>156c27b2-31a4-4737-99fd-1a974e343fc9</elementGuidId>
+   <elementGuidId>31e035aa-3b63-40d4-b7ea-dedf7eb08eb2</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
@@ -17,6 +17,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>.//*[@id='navbar']/ul[1]/li[4]/a</value>
+      <value>//a[contains(.,'Search')]</value>
    </webElementProperties>
 </WebElementEntity>
