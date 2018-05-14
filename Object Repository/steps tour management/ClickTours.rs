@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>Modules</name>
+   <name>ClickTours</name>
    <tag></tag>
-   <elementGuidId>e9cc0c5b-6fc1-4d0f-8694-3521c6398aa6</elementGuidId>
+   <elementGuidId>90468224-2216-4ac2-92ee-7375bf2213b1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,6 +16,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//a[contains(.,' Modules ')]</value>
+      <value>//a[@href='https://www.phptravels.net/admin/tours/']</value>
    </webElementProperties>
 </WebElementEntity>

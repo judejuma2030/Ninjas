@@ -19,15 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.openBrowser(GlobalVariable.url)
+WebUI.click(findTestObject('steps tour management/Modules'))
 
-WebUI.maximizeWindow()
+WebUI.mouseOver(findTestObject('steps tour management/MouseOverTours'))
 
-WebUI.setText(findTestObject('sign in/email'), Username)
-
-WebUI.setText(findTestObject('sign in/password'), password)
-
-WebUI.click(findTestObject('sign in/remember me'))
-
-WebUI.click(findTestObject('sign in/log in btn'))
+WebUI.click(findTestObject('steps tour management/ClickTours'))
 
